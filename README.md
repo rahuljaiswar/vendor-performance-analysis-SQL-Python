@@ -14,7 +14,6 @@ _Analyzing vendor efficiency and profitability to support strategic purchasing a
 - <a href="#data-cleaning--preparation">Data Cleaning & Preparation</a>
 - <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
 - <a href="#research-questions--key-findings">Research Questions & Key Findings</a>
-- <a href="#dashboard">Dashboard</a>
 - <a href="#how-to-run-this-project">How to Run This Project</a>
 - <a href="#final-recommendations">Final Recommendations</a>
 - <a href="#author--contact">Author & Contact</a>
@@ -61,12 +60,15 @@ vendor-performance-analysis/
 │
 ├── notebooks/                  # Jupyter notebooks
 │   ├── EDA.ipynb
-│   ├── vendor performance analysis.ipynb
 │   ├── Ingestion_db.ipynb
+│   ├── vendor_performance_analysis.ipynb
 │
 ├── scripts/                    # Python scripts for ingestion and processing
 │   ├── ingestion_db.py
 │   └── get_vendor_summary.py
+│
+
+```
 
 ---
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
@@ -108,12 +110,11 @@ vendor-performance-analysis/
 6. **Hypothesis Testing**: Statistically significant difference in profit margins → distinct vendor strategies
 
 ---
-
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/rahuljaiswar/vendor-performance-analysis-SQL-Python.git
+git clone https://github.com/yourusername/vendor-performance-analysis.git
 ```
 3. Load the CSVs and ingest into database:
 ```bash
@@ -126,7 +127,6 @@ python scripts/get_vendor_summary.py
 5. Open and run notebooks:
    - `notebooks/exploratory_data_analysis.ipynb`
    - `notebooks/vendor_performance_analysis.ipynb`
-   - `notebooks/Ingestion_db.ipynb`
 ---
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
